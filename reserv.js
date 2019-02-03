@@ -53,7 +53,7 @@ function reservar(codigo,pass,captcha){
           console.log("No existe div ");
       }
       if(data['respuesta']=='si'){
-        $(".login-sec").append('<div class="si">Cupo Nro: <label id="cupo">'+data['cupo']+'</label><br>'+
+        $(".login-sec").append('<div class="si" style="background-color:#96e881">Cupo Nro: <label id="cupo">'+data['cupo']+'</label><br>'+
                                 'Codigo: <label id="codigo"'+data['alumno']+'</label><br>'+
                                 'Nombre: <label id="nombre"'+data['nombre']+'</label><br>'+
                                 'Fecha y Hora: <label id="fecha"'+data['fecha']+'</label></div>');
@@ -70,7 +70,7 @@ function reservar(codigo,pass,captcha){
       } catch (error) {
           console.log("No existe div ");
       }
-        $(".login-sec").append('<div class="no">Error <label id="error">'+data['mensaje']+'</label><br>');
+        $(".login-sec").append('<div class="no" style="background-color:#ff7c77">Error <label id="error">'+data['mensaje']+'</label><br>');
       }
     },error: function (jqXHR, exception) {
       console.log(jqXHR);
