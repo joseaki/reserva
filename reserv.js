@@ -12,9 +12,9 @@ var pass = $('#pass').val();
 var captcha = $('#cap').val();
 
 //Validando campos
-if(codigo=='' || codigo.length<6){	document.getElementById("codigo").focus();document.getElementById("bnReserva").disabled=false;return;}
-if(pass=='' || pass.length<5){ document.getElementById("pass").focus();document.getElementById("bnReserva").disabled=false; return;}
-if(captcha==''){ document.getElementById("cap").focus();document.getElementById("bnReserva").disabled=false; return;}
+if(codigo=='' || codigo.length<6){	document.getElementById("codigo").focus();return;}
+if(pass=='' || pass.length<5){ document.getElementById("pass").focus(); return;}
+if(captcha==''){ document.getElementById("cap").focus(); return;}
 
 //reservar(codigo,pass,captcha);
 var intervalId = window.setInterval(function(){
