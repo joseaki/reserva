@@ -7,4 +7,9 @@
 - Existen tres recuadros (URL, JavaScript,Style CSS);  en el recuadro URL escribir http://bienestar.unsaac.edu.pe/, desplazarse al lado izquierdo y hacer clic en +
 - Se creará una fila con la url anterior, en el recuadro Add online JS link pegar https://cdn.jsdelivr.net/gh/joseaki/reserva@v0.1/reserv.js
 
+# Debera aparecer un boton igual al de abajo
+![alt text](https://github.com/joseaki/reserva/raw/master/Capture.PNG)
+
+En caso no aparezca actualice la pagina o en firefox presione F12
+
 > Eso es todo!!
